@@ -13,7 +13,7 @@ namespace inferno {
             int return_random_int(int, int); //Min, max
             
             std::string* tokenize_string(const std::string&, char);
-            std::string get_equipment(int, std::string, int); //Creates an object and returns an attribute based on a number provided, the specified file, and an int denoting the index of the attribute
+            std::string get_equipment(int, std::string, int); //Reurns an attribute from either equipment txt files, based on a line provided, the specified file, and an int denoting the index of the attribute
 
             class Armor {
                 public:
