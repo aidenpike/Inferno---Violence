@@ -4,3 +4,10 @@ This is my culminating project for my AP Lit class, over Dante's Inferno--specif
 
 ## Gameplay
 This is a short rpg-style game with levels, and equipment. You have 4 basic stats--health, defense, damage, and mana.
+
+## To-Do
+- Equipment using maps
+- Story
+- Encounter Code
+- Leveling System
+- Game Loop
