@@ -12,6 +12,7 @@ namespace inferno {
             int return_line_count(std::string); //Returns amount of lines in specified file
             int return_random_int(int, int); //Min, max
             
+            std::string* tokenize_string(const std::string&, char);
             std::string get_equipment(int, std::string, int); //Creates an object and returns an attribute based on a number provided, the specified file, and an int denoting the index of the attribute
 
             class Armor {
