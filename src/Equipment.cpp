@@ -20,4 +20,12 @@ namespace inferno {
 
         return line_count;
     }
+
+    int Equipment::return_random_int(int minimum, int maximum){
+        std::random_device random_seed;
+        std::mt19937 gen(random_seed());
+        std::uniform_int_distribution<> generate_random_int(minimum, maximum);
+
+        return generate_random_int(random_seed);
+    }
 };
