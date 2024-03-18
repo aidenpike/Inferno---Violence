@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include <random>
+#include <vector>
 
 namespace inferno {
     class Equipment {
