@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <random>
 
 namespace inferno {
     class Equipment {
